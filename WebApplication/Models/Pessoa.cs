@@ -12,6 +12,7 @@ namespace WebApplication.Models
         [Key]
         public int PessoaId { get; set; }
 
+        public String Nome { get; set; }
         public String Email { get; set; }
         public DateTime DataCadastro { get; set; }
         public virtual ICollection<Endereco> Enderecos { get; set; }
