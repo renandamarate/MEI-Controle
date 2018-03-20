@@ -9,7 +9,7 @@ namespace WebApplication.Models
     public class Telefone
     {
         [Key]
-        public int TelefoneId { get; }
+        public int TelefoneId { get; set; }
         public String Numero { get; set; }
         public String DDD { get; set; }
         public String CodigoPais { get; set; }

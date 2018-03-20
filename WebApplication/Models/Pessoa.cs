@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
@@ -13,10 +14,7 @@ namespace WebApplication.Models
 
         public String Email { get; set; }
         public DateTime DataCadastro { get; set; }
-        public Telefone Contato { get; set; }
-        public virtual List<Endereco> Enderecos { get; set; }
-        public virtual List<Telefone> Telefones { get; set; }
-        public virtual List<Cliente> Clientes { get; set; }
-
+        public virtual ICollection<Endereco> Enderecos { get; set; }
+        public virtual ICollection<Telefone> Telefones { get; set; }
     }
 }

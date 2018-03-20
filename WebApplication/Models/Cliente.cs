@@ -10,7 +10,6 @@ namespace WebApplication.Models
     {
         [Key]
         public int ClienteId { get; }
-        public DateTime DataCadastro { get; set; }
         public DateTime DataModificacao { get; set; }
     }
 }

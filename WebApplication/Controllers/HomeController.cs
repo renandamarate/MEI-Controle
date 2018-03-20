@@ -15,7 +15,7 @@ namespace WebApplication.Controllers
             return View();
         }
 
-        // GET: Home
+        // GET: Home/cadastro
         public ActionResult Cadastro()
         {
             return View();

@@ -16,7 +16,7 @@ namespace WebApplication.Models
         public int PessoaJuridicaId { get; set; }
         public virtual PessoaJuridica PessoaJuridica { get; set; }
         
-        public virtual List<Compromisso> Compromissos { get; set; }
-        public virtual List<Projeto> Projetos { get; set; }
+        public virtual ICollection<Compromisso> Compromissos { get; set; }
+        public virtual ICollection<Projeto> Projetos { get; set; }
     }
 }

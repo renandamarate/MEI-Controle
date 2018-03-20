@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -7,6 +8,7 @@ namespace WebApplication.Models
 {
     public class Projeto
     {
+        [Key]
         public int ProjetoId { get; set; }
         public DateTime DataCadastro { get; set; }
         public DateTime DataModificacao { get; set; }

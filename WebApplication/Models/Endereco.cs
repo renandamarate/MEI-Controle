@@ -9,13 +9,13 @@ namespace WebApplication.Models
     public class Endereco
     {
         [Key]
-        private int EnderecoId { get; }
-        private String Cep { get; set; }
-        private String Rua { get; set; }
-        private String Bairro { get; set; }
-        private String Cidade { get; set; }
-        private String Pais { get; set; }
-        private String Complemento { get; set; }
+        public int EnderecoId { get; set; }
+        public String Cep { get; set; }
+        public String Rua { get; set; }
+        public String Bairro { get; set; }
+        public String Cidade { get; set; }
+        public String Pais { get; set; }
+        public String Complemento { get; set; }
 
     }
 }
