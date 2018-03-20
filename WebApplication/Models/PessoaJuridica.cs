@@ -12,6 +12,6 @@ namespace WebApplication.Models
         public String RazaoSocial { get; set; }
         public DateTime DataAbertura { get; set; }
         public String InscricaoEstadual { get; set; }
-        
+
     }
 }

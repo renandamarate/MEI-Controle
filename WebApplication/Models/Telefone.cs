@@ -13,6 +13,5 @@ namespace WebApplication.Models
         public String Numero { get; set; }
         public String DDD { get; set; }
         public String CodigoPais { get; set; }
-
     }
 }

@@ -15,7 +15,7 @@ namespace WebApplication
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            Database.SetInitializer(new DropCreateDatabaseAlways<LBContexto>());
+            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<LBContexto>());
         }
     }
 }
