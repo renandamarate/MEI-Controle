@@ -13,5 +13,6 @@ namespace WebApplication.Models
         public DateTime DataAbertura { get; set; }
         public String InscricaoEstadual { get; set; }
 
+        public virtual ICollection<Orcamento> Orcamentos { get; set; }
     }
 }

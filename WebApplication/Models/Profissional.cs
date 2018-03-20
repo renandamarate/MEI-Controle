@@ -18,5 +18,6 @@ namespace WebApplication.Models
         
         public virtual ICollection<Compromisso> Compromissos { get; set; }
         public virtual ICollection<Projeto> Projetos { get; set; }
+        public virtual ICollection<Orcamento> Orcamentos { get; set; }
     }
 }

@@ -23,12 +23,10 @@ namespace WebApplication.Models
         public int ClienteId { get; set; }
         public virtual Cliente Cliente { get; set; }
 
-        [ForeignKey("PessoaJuridica")]
-        public int PessoaJuridicaId { get; set; }
-        public virtual PessoaJuridica PessoaJuridica { get; set; }
-
         [ForeignKey("Profissional")]
         public int ProfissionalId { get; set; }
         public virtual Profissional Profissional { get; set; }
+
+
     }
 }

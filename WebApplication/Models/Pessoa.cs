@@ -17,5 +17,6 @@ namespace WebApplication.Models
         public DateTime DataCadastro { get; set; }
         public virtual ICollection<Endereco> Enderecos { get; set; }
         public virtual ICollection<Telefone> Telefones { get; set; }
+        
     }
 }
